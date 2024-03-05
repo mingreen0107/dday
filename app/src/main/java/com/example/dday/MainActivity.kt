@@ -64,7 +64,6 @@ class MainActivity : AppCompatActivity() {
 
                     val textArea = findViewById<TextView>(R.id.finalDate)
                     textArea.setText((finalDate+1).toString())
-
                 }
 
             }, year, month, day)
